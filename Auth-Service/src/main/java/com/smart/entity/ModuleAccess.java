@@ -8,8 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class ModuleAccess {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private int moduleAccessId;
 	private int companyId;
 	private int employeeId;

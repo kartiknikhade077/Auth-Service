@@ -6,10 +6,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity
+
 public class Employee {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	private int employeeId;
 	private int userId;
 	private int companyId;
